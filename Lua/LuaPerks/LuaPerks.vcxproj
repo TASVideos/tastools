@@ -138,7 +138,7 @@
       <AdditionalIncludeDirectories>lua5.1.4\src;iup3.0-rc3/include;iup3.0-rc3/src;cd5.2/include;iup3.0-rc3/srccontrols;im3.5/include;cd5.2\src\sim;cd5.2\src\freetype2;cd5.2\src\pdflib\pdflib;im3.5\src\libpng;im3.5\src\libjpeg;im3.5\src\libjasper;im3.5\src\liblzf;im3.5\src\libtiff;im3.5\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN64;TEC_64;HAVE_SEARCH_H;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;CD_NO_OLD_INTERFACE;_IUP_PPLOT_;USE_IM;FT2_BUILD_LIBRARY;FT_OPTION_AUTOFIT2;IUPLUA_USELOH;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
